@@ -29,11 +29,12 @@ namespace AlbanianVirus {
 	public class MainClass {
 		public static void Virus() {
 			string virusTitle = "Virus Alert !";
-			string virusMessage = "Hi, I am an Albanian virus but because of poor technology in my\n" +
+			string virusMessage = "Hi, I am an Nigerian prince virus but because of poor technology in my\n" +
 			"country unfortunately I am not able to harm your computer. Please be\n" + 
 			"so kind to delete one of your important files yourself and then forward\n" +
-			"me to other users. Many thanks for your cooperation! Best\n" +
-			"regards,Albanian virus";
+			"me to other users. Many thanks for your cooperation! Best\n" 
+			"regards,Albanian virus\n" +
+			"~ Nadeem"
 
 			MessageBox.Show(virusMessage, virusTitle, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Error);
 		}
